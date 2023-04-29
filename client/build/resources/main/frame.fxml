@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="500" prefWidth="500" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.thom.Controller">
+   <children>
+      <AnchorPane prefHeight="506.0" prefWidth="500.0">
+         <children>
+            <Button layoutX="310.0" layoutY="226.0" mnemonicParsing="false" onAction="#playGame" prefHeight="51.0" prefWidth="99.0" text="Launch">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="16.0" />
+               </font></Button>
+            <TextField fx:id="serverIpTextField" layoutX="7.0" layoutY="94.0" />
+            <TextField fx:id="portTextField" layoutX="7.0" layoutY="115.0" />
+            <TextField fx:id="widthTextField" layoutX="7.0" layoutY="226.0" />
+            <TextField fx:id="heightTextField" layoutX="7.0" layoutY="251.0" />
+            <Label layoutX="162.0" layoutY="230.0" prefHeight="17.0" prefWidth="36.0" text="Width" />
+            <Label layoutX="162.0" layoutY="255.0" text="Height" />
+            <Label layoutX="167.0" layoutY="98.0" text="Server Ip" />
+            <Label layoutX="179.0" layoutY="119.0" text="Port" />
+            <Label layoutX="142.0" layoutY="14.0" text="BlindScape" textAlignment="CENTER">
+               <font>
+                  <Font name="Monospaced Regular" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
